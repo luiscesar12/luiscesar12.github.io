@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+h1{font-size: 4em;}
+
+h2{font-size: 2.7em; }
+
+h3{font-size: 2em}
+
+p{ font-size: 1.25em;}
+
+ul{list-style: none;}
+ 
+.container{
+    max-width: 1400px;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(245, 245, 245);
+}
+
+header.logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: aquamarine;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+
+header a:hover{
+    color: darkcyan;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #ffffff;
+    image-resolution: center;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+
+    ) ,url("Media/PistaH.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Que-es-la-Hidraulica {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #ffffff;
+    image-resolution: center;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+
+    ) ,url("Media/B-H.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Que-es-la-Hidraulica .container{
+    text-align: center;
+    padding: 150px 12px;
+    height: 100vh;
+
+}
+
+#Como-Funciona{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #ffffff;
+    image-resolution: center;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+
+    ) ,url("Media/F-Quimica.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Como-Funciona .container{
+    padding: 150px 12px;
+}
+
+#Como-Funciona h3{
+    margin-top: 0;
+}
+
+#Como-Funciona p{
+    display:flex;
+}
+
+#Como-Funciona{
+    text-align: center;
+    padding: 10px 12px;
+    height: 100vh;
+}
+
+#Materiales{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #ffffff;
+    image-resolution: center;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+
+    ) ,url("Media/Quimica2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Materiales .container{
+    padding: 85px 12px;
+}
+
+#Materiales h2{
+    margin-top: 0;
+}
+
+#Materiales p{
+    text-align: left;
+}
+
+#Materiales{
+    text-align: center;
+    padding: 10px 12px;
+    height: 100vh;
+}
+
+ footer{
+    background-color: #ffffff;
+ }
+
+ footer p{
+    margin: 12px;
+    padding: 12px;
+    color: #000000;
+ }
+
+ footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+ }
